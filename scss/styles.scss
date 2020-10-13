@@ -348,6 +348,13 @@ footer {
         font-size: 1.2em;
     }
 }
+.heading-title {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
 
 .heading {
     position: relative;
@@ -825,6 +832,9 @@ footer {
         &:hover {
             box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         }
+    }
+    span {
+        margin-left: 10pt;
     }
 }
 
