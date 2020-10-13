@@ -298,7 +298,7 @@ footer {
     padding: 15px 25px;
     border: 3px solid #fff;
     border-radius: 30px;
-    @include transition();
+  //  @include transition();
 
     &:hover {
         color: $base-color;
@@ -512,6 +512,13 @@ footer {
     ----- 6. Experience Styles -----
     --------------------------------
 */
+
+
+.start-today {
+    background-color: $base-color;
+
+}
+
 
 #experience {
     padding: 50px 15px;
