@@ -314,6 +314,40 @@ footer {
 .shadow-large {
     box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
 }
+.additional-skills-title {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+#additional-skills {
+    padding: 50px 15px;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: #fff;
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
 
 .heading {
     position: relative;
@@ -350,7 +384,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/bg.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -381,7 +415,11 @@ footer {
         color: lighten($base-color, 25%);
         font-weight: 500;
         font-size: 2.25em;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
+    }
+    h5 {
+        font-style: italic;
+        color: #fff;
     }
 }
 
@@ -456,6 +494,9 @@ footer {
     p {
         color: $text;
         margin: 0;
+    }
+    span {
+        font-style: italic;
     }
 }
 
