@@ -32,13 +32,13 @@
     ----- 1. Variables -----
     ------------------------
 */
-
+$soft-white: #fff;
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #34badb;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
+$background: $soft-white;
 $background-alt: #f2f2f5;
 
 // Define border colors
@@ -47,6 +47,8 @@ $border: #dcd9d9;
 // Define text colors
 $heading: #374054;
 $text: #74808a;
+
+
 
 /*
     ---------------------
@@ -294,15 +296,15 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: $soft-white;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid $soft-white;
     border-radius: 30px;
   //  @include transition();
 
     &:hover {
         color: $base-color;
-        background: #fff;
+        background: $soft-white;
         text-decoration: none;
     }
 }
@@ -320,6 +322,7 @@ footer {
     font-size: 2em;
     font-weight: 300;
     margin: 0 0 30px 0;
+    
 }
 #additional-skills {
     padding: 50px 15px;
@@ -342,10 +345,11 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: #fff;
+        background: $soft-white;
         list-style: none;
         cursor: default;
         font-size: 1.2em;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     }
 }
 .heading-title {
@@ -410,7 +414,7 @@ footer {
     }
 
     h1 {
-        color: #fff;
+        color: $soft-white;
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -426,7 +430,7 @@ footer {
     }
     h5 {
         font-style: italic;
-        color: #fff;
+        color: $soft-white;
     }
 }
 
@@ -450,7 +454,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #fff;
+    color: $soft-white;
 
     span {
         cursor: pointer;
@@ -562,7 +566,7 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
+    background: $soft-white;
     border: 1px solid #e6e6e6;
     padding: 15px;
     border-radius: 3px;
@@ -599,7 +603,7 @@ footer {
 
 .vtimeline-icon {
     position: relative;
-    color: #fff;
+    color: $soft-white;
     width: 50px;
     height: 50px;
     background: $base-color;
@@ -809,7 +813,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: $soft-white;
     border-radius: 4px;
 }
 
@@ -897,7 +901,7 @@ footer {
     text-align: center;
     h2 {
         margin: 0 0 15px 0;
-        color: #fff;
+        color: $soft-white;
         font-weight: 500;
     }
     .contact-buttons {
@@ -918,10 +922,10 @@ footer {
         border: none;
         margin-bottom: 10px;
         background: darken($base-color, 15%);
-        color: #fff;
+        color: $soft-white;
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: $soft-white;
         }
 
         &:focus {
@@ -938,7 +942,7 @@ footer {
     button {
         display: block;
         width: 100%;
-        background: #fff;
+        background: $soft-white;
         border-radius: 4px;
         padding: 5px 10px;
         border: none;
@@ -977,7 +981,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #fff;
+    background: $soft-white;
     text-align: left;
 
     h3 {
