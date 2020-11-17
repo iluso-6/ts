@@ -693,12 +693,16 @@ footer {
 
 .item blockquote img {
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
+.item blockquote {
+    text-align: center;
+}
 .item blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
-    float: left;
+ //   float: left;
     margin-right: 10px;
 }
 
@@ -720,6 +724,8 @@ footer {
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
     }
+
+    
     
 }
 
@@ -727,7 +733,9 @@ footer {
 @media (max-width: 768px) { 
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
+    .item blockquote img {
+        margin: 0 10px;
+    }
     #quote-carousel .carousel-indicators {
         bottom: 0px !important;  
     //    bottom: -20px !important; 
