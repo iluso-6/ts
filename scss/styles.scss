@@ -509,6 +509,13 @@ footer {
     span {
         font-style: italic;
     }
+    .about-image{
+        margin-bottom: 20px;
+     
+    }
+    .tony-image{
+     //   border: 5px solid #34badb38;
+    }
 }
 
 /*
@@ -926,6 +933,11 @@ footer {
         margin-top: 20px;
         color: $soft-white;
         font-weight: 500;
+    }
+    h5 {
+        margin-top: 28px;
+        color: #f2f5f5;
+        font-weight: 650;
     }
 }
 
