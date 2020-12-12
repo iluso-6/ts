@@ -513,9 +513,7 @@ footer {
         margin-bottom: 20px;
      
     }
-    .tony-image{
-     margin: 0 40px 0 0;
-    }
+
 }
 
 /*
@@ -732,12 +730,24 @@ footer {
       padding: 0 40px 30px 40px;
     }
 
-    
+    .avatars{
+    //    background-color: yellow;
+        text-align: center;
+        .tony-image{
+            margin-right: 20px;
+        }
+    }
     
 }
 
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) { 
+
+    .avatars{
+     //   background-color: red;
+        display: flex;
+        justify-content: space-around;
+    }
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     .item blockquote img {
