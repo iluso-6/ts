@@ -749,17 +749,20 @@ footer {
 
     .avatars{
     //    background-color: red;
+
+        .avatar-image{
+            width: 70px;
+            height: 70px;
+        }
+        .tony-image{
+            margin-right: 0px;
+        }
         display: flex;
         justify-content: space-around;
-        .avatar-image{
-            width: 60px;
-            height: 60px;
-        }
     }
 }
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) { 
-
 
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
