@@ -717,6 +717,10 @@ footer {
     margin-left: 10px;
 }
 
+.avatar-image{
+    width: 100px;
+    height:100px;
+}
 
 /**
   MEDIA QUERIES
@@ -736,18 +740,27 @@ footer {
         .tony-image{
             margin-right: 20px;
         }
+        
     }
     
 }
+@media (max-width: 600px) { 
 
+
+    .avatars{
+    //    background-color: red;
+        display: flex;
+        justify-content: space-around;
+        .avatar-image{
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) { 
 
-    .avatars{
-     //   background-color: red;
-        display: flex;
-        justify-content: space-around;
-    }
+
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     .item blockquote img {
